@@ -7,12 +7,7 @@ const audioCheering = document.querySelector("#audio-cheering");
 const audioGong = document.querySelector("#audio-gong");
 const audioPew = document.querySelector("#audio-pew");
 
-const playAudio = (sound) => {
-    sound.play();
-    // setTimeout(() => {
-    //     sound.pause();
-    // }, 1500);
-};
+const playAudio = (sound) => sound.play();
 
 let intervalId = 0;
 
