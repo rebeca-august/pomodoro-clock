@@ -77,7 +77,7 @@ button:hover, button:active{
     bottom: 80px;
     width: 15vw;
     border-radius: 15px;
-    border: 2px solid #F6E8D6;   
+    border: 2px solid #F6E8D6;
 }
 
 
@@ -129,10 +129,10 @@ button:hover, button:active{
     .tomato-pic-right{
         display: none;
     }
-}
-
-@media only screen and (max-width: 400px){
-   .header{
+    .header{
        font-size: 25px;
+   }
+   .container{
+       font-size: 16px;
    }
 }
